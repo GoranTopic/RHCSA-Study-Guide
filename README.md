@@ -146,7 +146,7 @@ Command history
 
 
 
-#####Compression and Archives:
+##### Compression and Archives:
 ---
 `tar cvf home.tar /home`
 * create a tar archive
