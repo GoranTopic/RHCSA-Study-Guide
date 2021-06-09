@@ -1,6 +1,5 @@
 RHCSA (RED HAT SYSTEM ADMINITRATOR)
 =======
-***
 
 [TOC]
 
@@ -10,16 +9,16 @@ Understand and Use Essenctial Tools
 
 
 
-#####Essencials :
+##### Essencials :
 ---
 	>  #(std) satandar output
     2> #(stderr) standar error
 	sort < list > sorted_list #combined input output
     ls  2> error 2>&1
 
-#####Grep and Regex
+##### Grep and Regex
 ---
-#####SSH (Secure Shell)
+##### SSH (Secure Shell)
 ---
 
 system width configs
@@ -29,7 +28,7 @@ system width configs
 user file, overrides system configs
 
 	~/.ssh/config
-######keys
+###### keys
 Generates a public and privates keys
 
 	ssh-keygen
@@ -45,7 +44,7 @@ Copies your public id over th te target
 	ssh-copy-id
 
 
-######X11 Forwarding
+###### X11 Forwarding
 
 I think it sends a single window trough the ssh connection
 
@@ -60,7 +59,7 @@ I think it sends a single window trough the ssh connection
 |ftp (file tranfer protocol) | sftp  ( secure file tranfer protocol)|
 
 
-#####logging in and switchign usrs:
+##### logging in and switchign usrs:
 ---
 suptitude user
 
@@ -76,12 +75,12 @@ Run a single command as an other user
 `su -C "fdisk -l" `
 
 
-######Interactive shells
+###### Interactive shells
 Means that the shell is run wit the interaction of the usr, suh as opening the terminal, as opposued to the non-interactive shell.
 
 `.bashrc` runs when in interactive
 
-######login shell
+###### login shell
 Runs as part to the user loggin into the system as opposued to a non-login which can be automated process
 
 `.bash_profile`
@@ -96,7 +95,7 @@ Command history
 
 
 
-#####Compression and Archives:
+##### Compression and Archives:
 ---
 `tar cvf home.tar /home`
 * create a tar archive
@@ -110,21 +109,21 @@ Command history
 
 `-z` or `-j` compresses behaivor
 
-######Compression
-######Gzip
+###### Compression
+###### Gzip
 
 `gzip bigfile.stuff`
 `gzip -d bigfile.stuff.gz`
 
-######Bzip
+###### Bzip
 `bzip2 bigfile.stuff`
 `bzip2 -d bigfile.stuff.bz2`
 
-######Zip Files
+###### Zip Files
 `zip -r zippedFileName.zip /home`
 `unzip zippedFileName.zp`
 
-#####Creating and Manipulation Files:
+##### Creating and Manipulation Files:
 ---
 A File:
 
@@ -148,19 +147,19 @@ Commands:
 * patch
 
 
-#####Using File Links:
+##### Using File Links:
 ---
 
-######Hard Links:yy
+###### Hard Links:yy
 Point to the same inode to the disk
 
-######Hard Links:yy
+###### Hard Links:yy
 is a pointer to the filenames of other files
 
 
 
 
-#####File Permissions:
+##### File Permissions:
 ---
 type of file:
 `-` => regualr files
